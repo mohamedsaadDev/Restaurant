@@ -35,7 +35,7 @@ const Home = () => {
             <img src={slide3} alt="" />
           </SwiperSlide>
         </Swiper>
-        <div className='container-info-home'>
+        <div data-aos="fade-up"  data-aos-easing="linear" data-aos-duration="1000" className='container-info-home'>
               <h1 className='title-slide'>welcome to restaurant</h1>
               <p className='paragraph-slide-home'>
                 Contemnit enim disserendi elegantiam confuse loquitur Ex rebus

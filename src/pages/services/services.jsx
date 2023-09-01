@@ -10,7 +10,7 @@ import logo6  from "../../data/imges/icon-6.svg"
 const Services = () => {
     return (
         <div className='container-services' id='services'>
-            <Card style={{ width: '18rem' }}>
+            <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={logo1} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
@@ -19,7 +19,7 @@ const Services = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={logo2} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
@@ -28,7 +28,7 @@ const Services = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={logo3} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
@@ -37,7 +37,7 @@ const Services = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={logo4} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
@@ -46,7 +46,7 @@ const Services = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={logo5} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
@@ -55,7 +55,7 @@ const Services = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={logo6} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>

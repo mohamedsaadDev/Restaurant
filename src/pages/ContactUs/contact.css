@@ -1,20 +1,9 @@
 .conatner-contactus{
-    display: flex;
     height: 100%;
     width: 100%;
-}
-.conatner-map-contactus{
-    width: 50%;
-    height: 100%;
-}
-.map-contactus{
-    height: 700px;
-    width: 100%;
-    color: rgba(0, 0,0,0.5);
-
 }
 .container-info-contactus{
-    width: 50%;
+    width: 100%;
     background-color: #F95738;
     padding:130px 100px ;
     color: #ffff;
@@ -22,7 +11,6 @@
 .container-info-contactus h2{
     font-size: 40px;
     font-family: 'Playball', cursive;
-
 }
 .container-info-contactus h5{
     font-size: 20px;
@@ -44,12 +32,6 @@
 @media (max-width:992px){
     .conatner-contactus {
         display: block;
-    }
-    .conatner-map-contactus {
-        width: 100%;
-    }
-    .map-contactus {
-        height: 350px;
     }
     .container-info-contactus {
         width: 100%;
