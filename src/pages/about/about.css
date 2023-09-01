@@ -1,0 +1,135 @@
+.contaier-about{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-info-about{
+    width: 35%;
+    padding: 30px;
+}
+.title-about{
+    font-family: 'Playball', cursive;
+    font-weight: bold;
+    color: rgb(100,100,100);
+    font-size: 30px;
+}
+.subtitle-about{
+    color: #F95738;
+    font-family: 'Droid Serif', serif;
+    font-size: 17px;
+}
+.paragraph-about{
+    font-size: 14px;
+}
+.img-about{
+    width: 50%;
+}
+@keyframes movesaboutinfo {
+    0%{
+        transform: translate(120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes movesaboutimg {
+    0%{
+        transform: translate(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+/*start form about*/
+.container-form-about{
+    height: 95vh;
+    background-image: url(../../data/imges/banerform.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.form-about{
+    background-color: rgba(0, 0, 0,0.9);
+    width: 40%;
+    height: 100%;
+    margin-left: 4%;
+    padding:45px;
+    text-align: center;
+}
+.title-form-about{
+    color: #ffffff;
+    font-family: 'Playball', cursive;
+    margin:60px 0;
+}
+.form-about .form-control,.form-select{
+    height: 42px;
+    border-radius: 40px !important;
+    background-color:transparent !important ;
+    color: #999!important;
+    text-indent: 15px;
+}
+.form-select{
+    margin-bottom: 15px;
+    padding: 5px !important;
+    font-size: 1rem !important;
+}
+.form-about .form-control::placeholder{
+    color: #999;
+}
+.form-about .btn{
+    background-color: #F95738;
+    box-shadow: 0px 0px 25px rgba(249, 87, 56, .9);
+    border: none;
+    padding:0.375rem 2.75rem;
+    border-radius: 30px;
+    float: right;
+    margin-top: 20px;
+}
+.form-about .btn{
+    background-color: #F95738 !important;
+}
+/*end form about*/
+@media(max-width:992px){
+    .contaier-about{
+        display: block;
+        text-align: center;
+    }
+    .container-info-about {
+        width:100%;
+    }
+    .img-about {
+        width: 75%;
+    }
+    .form-about {
+        margin: 0 auto;
+    }
+    .form-about {
+        width: 50%;
+    }
+}
+@media(max-width:690px){
+    .img-about {
+        width: 100%;
+    }
+    .form-about {
+        width: 70%;
+    }
+}
+@media(max-width:520px){
+    .form-about {
+        width: 90%;
+    }
+    .container-form-about {
+        height: 85vh;
+    }
+    .form-about .btn {
+        float: none;
+    }
+}

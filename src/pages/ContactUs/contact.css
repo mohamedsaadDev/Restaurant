@@ -1,0 +1,73 @@
+.conatner-contactus{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.conatner-map-contactus{
+    width: 50%;
+    height: 100%;
+}
+.map-contactus{
+    height: 700px;
+    width: 100%;
+    color: rgba(0, 0,0,0.5);
+
+}
+.container-info-contactus{
+    width: 50%;
+    background-color: #F95738;
+    padding:130px 100px ;
+    color: #ffff;
+}
+.container-info-contactus h2{
+    font-size: 40px;
+    font-family: 'Playball', cursive;
+
+}
+.container-info-contactus h5{
+    font-size: 20px;
+    font-family: 'Playball', cursive;
+}
+.container-info-contactus p{
+    color: #ffff;
+    margin-top: 25px;
+}
+.icon-contact{
+    margin-right: 10px;
+    font-size: 25px;
+    line-height: 25px;
+    height: 25px;
+}
+.container-icon-contact{
+    margin-top: 20px;
+}
+@media (max-width:992px){
+    .conatner-contactus {
+        display: block;
+    }
+    .conatner-map-contactus {
+        width: 100%;
+    }
+    .map-contactus {
+        height: 350px;
+    }
+    .container-info-contactus {
+        width: 100%;
+        padding: 50px 100px
+    }
+}
+@media (max-width:520px){
+    .container-info-contactus {
+        width: 100%;
+        padding: 30px 50px;
+    }
+}
+@media (max-width:390px){
+    .container-info-contactus {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .container-info-contactus p {
+        line-height: 25px;
+    }
+}

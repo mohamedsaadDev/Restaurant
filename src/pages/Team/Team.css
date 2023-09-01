@@ -1,0 +1,107 @@
+.container-team{
+  background-color: #F3F3F3;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: relative;
+}
+.container-info-team{
+  padding: 10px;
+  width: 32%;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  height: 100%;
+  background-color: #F3F3F3;
+  padding: 50px  20px;
+}
+.title-team{
+  font-family: 'Playball', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(100,100,100);
+}
+.subtitle-team{
+  color: rgb(249,87,56);
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide-team {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.swiper-slide-team img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.7s ease-in-out;
+}
+.swiper-slide-team:hover img{
+  transform: scale(1.2);
+}
+.info-Personal-team{
+  position: absolute;
+  background-color: rgba(255, 255, 255, .9);
+  width: 90%;
+  height: 90%;
+  padding: 30px;
+  left: 470px;
+  transition: 0.7s ease-in-out;
+}
+.swiper-slide-team:hover .info-Personal-team{
+  left: 30px;
+} 
+.info-Personal-team h6{
+  color: rgb(249,87,56);
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Playball', cursive;
+}
+.info-Personal-team H4,p {
+  color: rgb(100,100,100);
+  font-weight: 400;
+}
+.icon-info-Personal-team{
+  background-color: rgb(249,87,56);
+  color: #fff;
+  box-shadow: 0px 0px 25px rgba(249, 87, 56, .9);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin:10px 8px 0 0 ;
+  cursor: pointer;
+}
+@media(max-width:1075px){
+  .container-info-team{
+    position: static;
+    width: 100%;
+  }
+  .swiper-slide-team{
+    height: 60vh;
+    width: 60vh;
+  }
+}
+@media(max-width:992px){
+  .swiper-slide-team:hover .info-Personal-team{
+    left: 20px;
+  } 
+}
+@media(max-width:570px){
+  .info-Personal-team{
+    left: 520px;
+  }
+  .container-team {
+    padding: 10px;
+}
+}
