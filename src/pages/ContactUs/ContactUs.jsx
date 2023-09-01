@@ -28,3 +28,10 @@ const ContactUs = () => {
     )
 }
 export default ContactUs
+/*<div className='conatner-map-contactus'>
+                <iframe 
+                className='map-contactus'
+                src= {srcmap}
+                loading="lazy"
+                ></iframe>
+            </div>*/

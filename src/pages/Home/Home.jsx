@@ -1,4 +1,3 @@
-import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import slide1 from "../../data/imges/slide1.jpg"
@@ -36,7 +35,7 @@ const Home = () => {
             <img src={slide3} alt="" />
           </SwiperSlide>
         </Swiper>
-        <div data-aos="fade-up" data-aos-easing="linear"data-aos-duration="1100" className='container-info-home'>
+        <div className='container-info-home'>
               <h1 className='title-slide'>welcome to restaurant</h1>
               <p className='paragraph-slide-home'>
                 Contemnit enim disserendi elegantiam confuse loquitur Ex rebus

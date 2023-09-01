@@ -7,7 +7,6 @@ import Footer from './components/Footer/Footer';
 import ContactUs from './pages/ContactUs/ContactUs';
 import ScrollToTop from './components/Scrolle Top/ScrolleTop';
 import Navbars from './components/Navbar/Navbar';
-import "aos/dist/aos.css"
 import Loading from './components/Loading/Loading';
 
 function App() {
@@ -28,3 +27,13 @@ function App() {
 }
 
 export default App;
+/* <Loading/>
+    <ScrollToTop/>
+    <Navbars/>
+    <Home/>
+    <About/>
+    <Services/>
+    <Menu/>
+    <Team/>
+    <ContactUs/>
+    <Footer/>*/
