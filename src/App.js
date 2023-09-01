@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-import Navbar from './components/Navbar/Navbar';
 import Home from "./pages/Home/Home"
 import Menu from './pages/Menu/Menu';
 import About from './pages/about/About';
@@ -10,7 +8,6 @@ import ContactUs from './pages/ContactUs/ContactUs';
 import ScrollToTop from './components/Scrolle Top/ScrolleTop';
 import Navbars from './components/Navbar/Navbar';
 import "aos/dist/aos.css"
-import Scrollprogress from './Scrollprogress/Scrollprogress';
 import Loading from './components/Loading/Loading';
 
 function App() {
