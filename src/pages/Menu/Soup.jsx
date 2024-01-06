@@ -9,7 +9,7 @@ const Soup = () => {
     <>
     <div className='container-item'>
       <div className='left-item'>
-        <Image src={soup1} roundedCircle />
+        <Image loading='lazy' src={soup1} roundedCircle />
         <div>
           <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
           <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -19,7 +19,7 @@ const Soup = () => {
     </div>
     <div className='container-item'>
       <div className='left-item'>
-        <Image src={soup2} roundedCircle />
+        <Image loading='lazy' src={soup2} roundedCircle />
         <div>
           <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
           <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -29,7 +29,7 @@ const Soup = () => {
     </div>
     <div className='container-item'>
       <div className='left-item'>
-        <Image src={soup3} roundedCircle />
+        <Image loading='lazy' src={soup3} roundedCircle />
         <div>
           <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
           <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -39,7 +39,7 @@ const Soup = () => {
     </div>
     <div className='container-item'>
       <div className='left-item'>
-        <Image src={soup4} roundedCircle />
+        <Image loading='lazy' src={soup4} roundedCircle />
         <div>
           <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
           <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -49,7 +49,7 @@ const Soup = () => {
     </div>
     <div className='container-item'>
       <div className='left-item'>
-        <Image src={soup1} roundedCircle />
+        <Image loading='lazy' src={soup1} roundedCircle />
         <div>
           <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
           <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>

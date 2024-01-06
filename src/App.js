@@ -1,16 +1,16 @@
-import Home from "./pages/Home/Home"
-import Menu from './pages/Menu/Menu';
-import About from './pages/about/About';
-import Services from './pages/services/services';
-import Team from './pages/Team/Team';
-import Footer from './components/Footer/Footer';
-import ContactUs from './pages/ContactUs/ContactUs';
+import React,{ useEffect, Suspense } from "react";
 import ScrollToTop from './components/Scrolle Top/ScrolleTop';
-import Navbars from './components/Navbar/Navbar';
 import Loading from './components/Loading/Loading';
 import AOS from "aos"
 import "aos/dist/aos.css"
-import { useEffect } from "react";
+const NavbarsLazy = React.lazy(()=>import('./components/Navbar/Navbar'))
+const HomeLazy = React.lazy(()=>import('./pages/Home/Home'))
+const AboutLazy = React.lazy(()=>import('./pages/about/About'))
+const ServicesLazy = React.lazy(()=>import('./pages/services/services'))
+const MenuLazy = React.lazy(()=>import('./pages/Menu/Menu'))
+const TeamLazy = React.lazy(()=>import('./pages/Team/Team'))
+const ContactUsLazy = React.lazy(()=>import('./pages/ContactUs/ContactUs'))
+const FooterLazy = React.lazy(()=>import('./components/Footer/Footer'))
 function App() {
   useEffect(() => {
     AOS.init();
@@ -18,15 +18,17 @@ function App() {
   return (
     <>
     <Loading/>
-    <ScrollToTop/>
-    <Navbars/>
-    <Home/>
-    <About/>
-    <Services/>
-    <Menu/>
-    <Team/>
-    <ContactUs/>
-    <Footer/>
+    <Suspense >
+      <ScrollToTop/>
+      <NavbarsLazy/>
+      <HomeLazy/>
+      <AboutLazy/>
+      <ServicesLazy/>
+      <MenuLazy/>
+      <TeamLazy/>
+      <ContactUsLazy/>
+      <FooterLazy/>
+    </Suspense>
     </>
   );
 }

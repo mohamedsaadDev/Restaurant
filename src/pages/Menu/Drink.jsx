@@ -9,7 +9,7 @@ const Drink = () => {
         <>
         <div className='container-item'>
             <div className='left-item'>
-                <Image src={drink1} roundedCircle />
+                <Image loading='lazy' src={drink1} roundedCircle />
                 <div>
                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -19,7 +19,7 @@ const Drink = () => {
         </div>
         <div className='container-item'>
             <div className='left-item'>
-                <Image src={drink2} roundedCircle />
+                <Image loading='lazy' src={drink2} roundedCircle />
                 <div>
                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -29,7 +29,7 @@ const Drink = () => {
         </div>
         <div className='container-item'>
             <div className='left-item'>
-                <Image src={drink3} roundedCircle />
+                <Image loading='lazy' src={drink3} roundedCircle />
                 <div>
                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -39,7 +39,7 @@ const Drink = () => {
         </div>
         <div className='container-item'>
             <div className='left-item'>
-                <Image src={drink4} roundedCircle />
+                <Image loading='lazy' src={drink4} roundedCircle />
                 <div>
                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>

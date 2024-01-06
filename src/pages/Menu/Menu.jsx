@@ -27,7 +27,7 @@ const Menu = () => {
                 <Tab eventKey="fresh-food" title="freshfood">
                     <div className='container-item'>
                         <div className='left-item'>
-                            <Image src={fresh1} roundedCircle />
+                            <Image loading='lazy' src={fresh1} roundedCircle />
                             <div>
                                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -37,7 +37,7 @@ const Menu = () => {
                     </div>
                     <div className='container-item'>
                         <div className='left-item'>
-                            <Image src={fresh2} roundedCircle />
+                            <Image loading='lazy' src={fresh2} roundedCircle />
                             <div>
                                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -47,7 +47,7 @@ const Menu = () => {
                     </div>
                     <div className='container-item'>
                         <div className='left-item'>
-                            <Image src={fresh3} roundedCircle />
+                            <Image loading='lazy' src={fresh3} roundedCircle />
                             <div>
                                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -57,7 +57,7 @@ const Menu = () => {
                     </div>
                     <div className='container-item'>
                         <div className='left-item'>
-                            <Image src={fresh4} roundedCircle />
+                            <Image loading='lazy' src={fresh4} roundedCircle />
                             <div>
                                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -67,7 +67,7 @@ const Menu = () => {
                     </div>
                     <div className='container-item'>
                         <div className='left-item'>
-                            <Image src={fresh5} roundedCircle />
+                            <Image loading='lazy' src={fresh5} roundedCircle />
                             <div>
                                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>
@@ -77,7 +77,7 @@ const Menu = () => {
                     </div>
                     <div className='container-item'>
                         <div className='left-item'>
-                            <Image src={fresh6} roundedCircle /> 
+                            <Image loading='lazy' src={fresh6} roundedCircle /> 
                             <div>
                                 <h4 className='title-item-menu'>RAIMAT ABADIA</h4>
                                 <p className='ingredients-item-menu'>Complex, Dark Cherry, Spice, bodied</p>

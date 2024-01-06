@@ -26,13 +26,13 @@ const Home = () => {
           className="Swiper-home"
         >
           <SwiperSlide className='swiper-slide-home'>
-            <img src={slide1} alt="" />
+            <img loading='lazy' src={slide1} alt="" />
           </SwiperSlide>
           <SwiperSlide className='swiper-slide-home'>
-            <img src={slide2} alt="" />
+            <img loading='lazy' src={slide2} alt="" />
           </SwiperSlide>
           <SwiperSlide className='swiper-slide-home'>
-            <img src={slide3} alt="" />
+            <img loading='lazy' src={slide3} alt="" />
           </SwiperSlide>
         </Swiper>
         <div data-aos="fade-up"  data-aos-easing="linear" data-aos-duration="1000" className='container-info-home'>

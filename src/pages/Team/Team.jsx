@@ -39,7 +39,7 @@ const Team = () => {
         className="mySwiper"
       >
         <SwiperSlide className='swiper-slide-team'>
-          <img src={team1} alt="" />
+          <img loading='lazy' src={team1} alt="" />
           <div className='info-Personal-team'>
             <h6>cooker</h6>
             <h4>Ahmed khaled</h4>
@@ -54,7 +54,7 @@ const Team = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-slide-team'>
-          <img src={team2} alt="" />
+          <img loading='lazy' src={team2} alt="" />
           <div className='info-Personal-team'>
             <h6>cooker</h6>
             <h4>Ahmed khaled</h4>
@@ -69,7 +69,7 @@ const Team = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-slide-team'>
-          <img src={team3} alt="" />
+          <img loading='lazy' src={team3} alt="" />
           <div className='info-Personal-team'>
             <h6>cooker</h6>
             <h4>Ahmed khaled</h4>
@@ -84,7 +84,7 @@ const Team = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-slide-team'>
-          <img src={team4} alt="" />
+          <img loading='lazy' src={team4} alt="" />
           <div className='info-Personal-team'>
             <h6>cooker</h6>
             <h4>Ahmed khaled</h4>
@@ -99,7 +99,7 @@ const Team = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-slide-team'>
-          <img src={team1} alt="" />
+          <img loading='lazy' src={team1} alt="" />
           <div className='info-Personal-team'>
             <h6>cooker</h6>
             <h4>Ahmed khaled</h4>
@@ -114,7 +114,7 @@ const Team = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-slide-team'>
-          <img src={team2} alt="" />
+          <img loading='lazy' src={team2} alt="" />
           <div className='info-Personal-team'>
             <h6>cooker</h6>
             <h4>Ahmed khaled</h4>

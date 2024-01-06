@@ -11,7 +11,7 @@ const Services = () => {
     return (
         <div className='container-services' id='services'>
             <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={logo1} />
+                <Card.Img loading='lazy' variant="top" src={logo1} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
                     <Card.Text>
@@ -20,7 +20,7 @@ const Services = () => {
                 </Card.Body>
             </Card>
             <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={logo2} />
+                <Card.Img loading='lazy' variant="top" src={logo2} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
                     <Card.Text>
@@ -29,7 +29,7 @@ const Services = () => {
                 </Card.Body>
             </Card>
             <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={logo3} />
+                <Card.Img loading='lazy' variant="top" src={logo3} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
                     <Card.Text>
@@ -38,7 +38,7 @@ const Services = () => {
                 </Card.Body>
             </Card>
             <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={logo4} />
+                <Card.Img loading='lazy' variant="top" src={logo4} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
                     <Card.Text>
@@ -47,7 +47,7 @@ const Services = () => {
                 </Card.Body>
             </Card>
             <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={logo5} />
+                <Card.Img loading='lazy' variant="top" src={logo5} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
                     <Card.Text>
@@ -56,7 +56,7 @@ const Services = () => {
                 </Card.Body>
             </Card>
             <Card data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="1000" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={logo6} />
+                <Card.Img loading='lazy' variant="top" src={logo6} />
                 <Card.Body>
                     <Card.Title>Always Fresh Food</Card.Title>
                     <Card.Text>
